@@ -22,4 +22,10 @@
         android:name="buy_now.company.contenedor.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_Explorar"
+        android:name="buy_now.company.contenedor.ui.explorar.ExplorarFragment"
+        android:label="@string/menu_Explorar"
+        tools:layout="@layout/fragment_explorar" />
 </navigation>
