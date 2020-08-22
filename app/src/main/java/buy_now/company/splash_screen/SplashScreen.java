@@ -3,6 +3,7 @@ package buy_now.company.splash_screen;
 import androidx.appcompat.app.AppCompatActivity;
 import buy_now.company.R;
 import buy_now.company.contenedor.MainActivity_Contenedor;
+import buy_now.company.contenedor.MainActivity_NavigationDrawerActivity_Contenedor;
 import buy_now.company.fragment.Inicio_Fragment;
 
 import android.content.Intent;
@@ -27,7 +28,7 @@ public class SplashScreen extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent intent=new Intent(SplashScreen.this, MainActivity_Contenedor.class);
+                Intent intent=new Intent(SplashScreen.this, MainActivity_NavigationDrawerActivity_Contenedor.class);
                 // Intent intent=new Intent(SplashScreen.this,LoginActivity.class);
                 startActivity(intent);
                 finish();

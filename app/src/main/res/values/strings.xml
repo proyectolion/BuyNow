@@ -2,4 +2,27 @@
     <string name="app_name">Buy Now</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main__navigation_drawer_activity_contenedor">
+        MainActivity_NavigationDrawerActivity_Contenedor
+    </string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_Explorar">Explorar</string>
+    <string name="menu_Buscar">Buscar</string>
+    <string name="menu_Notificaciones">Notificaciones</string>
+    <string name="menu_Carrito">Carrito de Compras</string>
+    <string name="menu_Historial">Historial de Pedidos</string>
+    <string name="menu_Servicio">Servicio al Cliente</string>
+    <string name="menu_Preguntas">Preguntas Frecuentes</string>
+    <string name="menu_Configuracion">Configuracion</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
 </resources>
