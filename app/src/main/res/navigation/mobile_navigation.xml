@@ -28,4 +28,46 @@
         android:name="buy_now.company.contenedor.ui.explorar.ExplorarFragment"
         android:label="@string/menu_Explorar"
         tools:layout="@layout/fragment_explorar" />
+
+    <fragment
+        android:id="@+id/nav_Buscar"
+        android:name="buy_now.company.contenedor.ui.buscar.BuscarFragment"
+        android:label="@string/menu_Buscar"
+        tools:layout="@layout/fragment_buscar" />
+
+    <fragment
+        android:id="@+id/nav_Notificaciones"
+        android:name="buy_now.company.contenedor.ui.notificaciones.NotificacionesFragment"
+        android:label="@string/menu_Notificaciones"
+        tools:layout="@layout/fragment_notificaciones" />
+
+    <fragment
+        android:id="@+id/nav_Carrito"
+        android:name="buy_now.company.contenedor.ui.carrito.CarritoFragment"
+        android:label="@string/menu_Carrito"
+        tools:layout="@layout/fragment_carrito" />
+
+    <fragment
+        android:id="@+id/nav_Historial"
+        android:name="buy_now.company.contenedor.ui.historial.HistorialFragment"
+        android:label="@string/menu_Historial"
+        tools:layout="@layout/fragment_historial" />
+
+    <fragment
+        android:id="@+id/nav_Servicio"
+        android:name="buy_now.company.contenedor.ui.servicio.ServicioFragment"
+        android:label="@string/menu_Servicio"
+        tools:layout="@layout/fragment_servicio" />
+
+    <fragment
+        android:id="@+id/nav_Preguntas"
+        android:name="buy_now.company.contenedor.ui.preguntas.PreguntasFragment"
+        android:label="@string/menu_Preguntas"
+        tools:layout="@layout/fragment_preguntas" />
+
+    <fragment
+        android:id="@+id/nav_Configuracion"
+        android:name="buy_now.company.contenedor.ui.configuracion.ConfiguracionFragment"
+        android:label="@string/menu_Configuracion"
+        tools:layout="@layout/fragment_configuracion" />
 </navigation>
